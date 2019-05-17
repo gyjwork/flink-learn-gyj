@@ -1,19 +1,15 @@
 package com.gyj;
 
+import com.gyj.Utils.KafkaUtils;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
-import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer010;
-import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer010;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
 
 /**
  * @author gyj
@@ -27,16 +23,9 @@ public class Main {
 
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        final String bootstrapServers = "10.182.83.222:21005,10.182.83.223:21005,10.182.83.224:21005,10.182.83.225:21005,10.182.83.226:21005";
-        final String zookeeperConnect = "10.182.83.227:24002,10.182.83.228:24002,10.182.83.229:24002";
-        final String groupId = "gyj_flink_test";
+        //env.enableCheckpointing(5000); // checkpoint every 5000 msecs
 
-        Properties properties = new Properties();
-        properties.setProperty("bootstrap.servers", bootstrapServers);
-        properties.setProperty("zookeeper.connect", zookeeperConnect);
-        properties.setProperty("group.id", groupId);
-
-        FlinkKafkaConsumer010<String> myConsumer = new FlinkKafkaConsumer010<String>("gyj_test1", new SimpleStringSchema(), properties);
+        FlinkKafkaConsumer010<String> myConsumer = new FlinkKafkaConsumer010<String>("gyj_test1", new SimpleStringSchema(), KafkaUtils.initKafkaProps("gyj_flink_test"));
         myConsumer.setStartFromLatest();
         DataStream<String> stream = env.addSource(myConsumer);
         //逻辑处理

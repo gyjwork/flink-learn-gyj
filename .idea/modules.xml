@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flink-learn-gyj.iml" filepath="$PROJECT_DIR$/.idea/flink-learn-gyj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-watermark/flink-learn-watermark.iml" filepath="$PROJECT_DIR$/flink-learn-watermark/flink-learn-watermark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" filepath="$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-test-001/flink-test-001.iml" filepath="$PROJECT_DIR$/flink-test-001/flink-test-001.iml" />
+    </modules>
+  </component>
+</project>
