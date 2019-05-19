@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7115cfd-b66f-45f6-a9d9-f6a8934b4034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Utils/KafkaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/scala/kafka.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-watermark/flink-learn-watermark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-watermark/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-window/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/KafkaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/WatermarksService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/target/classes/com/gyj/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/target/classes/com/gyj/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/target/classes/com/gyj/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/target/classes/com/gyj/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink-learn-connectors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-connectors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-learn-window/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-learn-window/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-test-001/flink-test-001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-test-001/flink-test-001.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/flink-test-001/target/" />
     <ignored path="$PROJECT_DIR$/flink-learn-connectors/target/" />
@@ -43,101 +24,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="788201145">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.76" value="1" />
-          <entry key="project.open.time.82" value="1" />
-          <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="16" />
-          <entry key="csv" value="1" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="32" />
-          <entry key="md" value="1" />
-          <entry key="scala" value="1" />
-          <entry key="xml" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="16" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="32" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="1" />
-          <entry key="XML" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="ft" value="7" />
-          <entry key="java" value="892" />
-          <entry key="scala" value="2" />
-          <entry key="xml" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="892" />
-          <entry key="Scala" value="2" />
-          <entry key="VTL" value="7" />
-          <entry key="XML" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java">
+        <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/KafkaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="188">
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJob.java">
+        <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+            <state relative-caret-position="1017">
+              <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2824#2840#0" expanded="true" />
+                <element signature="e#4220#4221#0" expanded="true" />
+                <element signature="e#4280#4281#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/WatermarksService.java">
+        <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#6844#6845#0" expanded="true" />
+                <element signature="e#6875#6876#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Utils/KafkaUtils.java">
+        <entry file="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="138">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +94,7 @@
       <list>
         <option value="Scala Worksheet" />
         <option value="Scala Script" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -158,6 +104,7 @@
       <find>setStreamTimeCharacteristic</find>
       <find>windowEnd</find>
       <find>ItemViewCount</find>
+      <find>mm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,18 +125,17 @@
         <option value="$PROJECT_DIR$/flink-lrarn-watermark/pom.xml" />
         <option value="$PROJECT_DIR$/flink-lrarn-watermark/src/main/java/com/gyj/StreamingJob.java" />
         <option value="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Utils/KafkaUtils.java" />
-        <option value="$PROJECT_DIR$/flink-learn-window/pom.xml" />
         <option value="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java" />
         <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/WatermarksService.java" />
+        <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/KafkaUtils.java" />
+        <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Entites/a.java" />
+        <option value="$PROJECT_DIR$/flink-learn-window/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Entites/MyEvent.java" />
         <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJob.java" />
+        <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow1.java" />
+        <option value="$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow2.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -197,6 +143,11 @@
         <option name="mavenHome" value="D:/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="add-dependencies-for-IDEA" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -210,11 +161,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="70" />
+    <option name="width" value="1400" />
+    <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,14 +175,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="flink-learn-gyj" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-learn-gyj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-learn-gyj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-learn-gyj" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-learn-connectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-learn-gyj" type="b2602c69:ProjectViewProjectNode" />
@@ -282,10 +236,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558105331729" />
@@ -299,6 +256,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gyj" />
       <recent name="com.gyj.Utils" />
     </key>
   </component>
@@ -314,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamingJob">
+  <component name="RunManager" selected="Application.StreamingJobWindow1">
     <configuration name="BatchJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gyj.BatchJob" />
       <module name="flink-kafka" />
@@ -367,14 +325,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamingJobWindow1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gyj.StreamingJobWindow1" />
+      <module name="flink-learn-window" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gyj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="flink-test-001" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="flink-test-001" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.HotItems" />
       <item itemvalue="Application.BatchJob" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.StreamingJob" />
+      <item itemvalue="Application.StreamingJobWindow1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamingJobWindow1" />
         <item itemvalue="Application.StreamingJob" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BatchJob" />
@@ -400,10 +420,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38496000" />
+    <option name="totallyTimeSpent" value="46492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="40" y="70" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -411,7 +431,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -419,7 +439,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.278157" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.27719823" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -439,20 +459,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-test-001/src/main/java/com/gyj/BatchJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -633,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-test-001/src/main/java/com/gyj/HotItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="375">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -645,37 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learn-window/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/KafkaUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-learn-connectors/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/datastream/DataStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="322" lean-forward="true" selection-start-line="322" selection-end-line="322" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,22 +666,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/WatermarksService.java">
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/WatermarksService.java" />
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Utils/KafkaUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="188">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/functions/source/SourceFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/watermark/Watermark.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Locale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="1512" column="18" selection-start-line="1512" selection-start-column="16" selection-end-line="1512" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="579" column="59" selection-start-line="579" selection-start-column="59" selection-end-line="579" selection-end-column="59" />
+          <folding>
+            <element signature="e#23443#23444#0" expanded="true" />
+            <element signature="e#23515#23516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+          <folding>
+            <element signature="e#6844#6845#0" expanded="true" />
+            <element signature="e#6875#6876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.1/kafka-clients-0.10.2.1-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="851" column="16" selection-start-line="851" selection-start-column="16" selection-end-line="851" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/Entites/MyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJob.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.8.0/flink-streaming-java_2.11-1.8.0.jar!/org/apache/flink/streaming/api/datastream/DataStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+        <state relative-caret-position="105">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/src/main/java/com/gyj/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-learn-window/src/main/java/com/gyj/StreamingJobWindow1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2840#0" expanded="true" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4280#4281#0" expanded="true" />
           </folding>
         </state>
       </provider>
