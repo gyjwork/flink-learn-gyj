@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * @author gyj
- * @title: a
+ * @title: MyEvent
  * @projectName flink-learn-gyj
  * @description: TODO
  * @date 2019-05-1823:44
