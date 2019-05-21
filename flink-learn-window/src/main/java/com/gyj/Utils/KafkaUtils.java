@@ -1,5 +1,8 @@
 package com.gyj.Utils;
 
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
 import java.util.Properties;
 
 /**
@@ -15,20 +18,39 @@ public class KafkaUtils {
 
     /**
      * 初始化kafka配置
+     *
      * @param groupId
      * @return
      */
     public static Properties initKafkaProps(String groupId) {
         Properties props = new Properties();
-        //props.put("bootstrap.servers",bootstrapServers);
-        //props.put("zookeeper.connect",zookeeperConnect);
-        props.put("bootstrap.servers", "localhost:9092");
-        props.put("zookeeper.connect", "localhost:2181");
-        props.put("group.id",groupId);
+        props.put("bootstrap.servers",bootstrapServers);
+        props.put("zookeeper.connect",zookeeperConnect);
+        //props.put("bootstrap.servers", "localhost:9092");
+        //props.put("zookeeper.connect", "localhost:2181");
+        props.put("group.id", groupId);
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("auto.offset.reset", "latest");
         return props;
+    }
+
+    public static void KafkaProducer(String msg) {
+        Properties props = new Properties();
+        props.put("serializer.class", "kafka.serializer.StringEncoder");
+        props.put("bootstrap.servers", bootstrapServers);
+        props.put("request.required.acks", "1");
+        props.put("key.serializer", "org.apache.kafka.common.serialization.IntegerSerializer");
+        props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        KafkaProducer producer = new KafkaProducer(props);
+        producer.send(new ProducerRecord("gyj_test1", msg));
+        producer.flush();
+    }
+
+    public static void main(String[] args){
+        for (int i=0;i<20;i++){
+            KafkaProducer("001," + System.currentTimeMillis() + ",test"+String.valueOf(i));
+        }
     }
 
 
