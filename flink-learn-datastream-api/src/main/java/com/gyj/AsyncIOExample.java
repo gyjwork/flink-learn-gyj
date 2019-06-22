@@ -89,7 +89,7 @@ public class AsyncIOExample {
 
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        DataStream<String> stream = env.socketTextStream("10.186.88.230", 9000);
+        DataStream<String> stream = env.socketTextStream("localhost", 9000);
 
         DataStream<Tuple2<String, String>> resultStream = AsyncDataStream.unorderedWait(stream, new AsyncDatabaseRequest(), 10000, TimeUnit.MILLISECONDS, 100);
 

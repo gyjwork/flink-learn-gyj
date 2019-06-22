@@ -10,8 +10,8 @@ import java.util.Properties;
  */
 public class KafkaUtils {
 
-    public static final String bootstrapServers = "10.182.83.222:21005,10.182.83.223:21005,10.182.83.224:21005,10.182.83.225:21005,10.182.83.226:21005";
-    public static final String zookeeperConnect = "10.182.83.227:24002,10.182.83.228:24002,10.182.83.229:24002";
+    public static final String bootstrapServers = "";
+    public static final String zookeeperConnect = "";
 
     /**
      * 初始化kafka配置

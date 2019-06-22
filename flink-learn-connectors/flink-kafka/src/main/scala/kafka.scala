@@ -43,7 +43,7 @@ object kafka {
       import java.util.Properties
       val props = new Properties()
       props.put("serializer.class", "kafka.serializer.StringEncoder")
-      props.put("bootstrap.servers", "10.182.83.222:21005,10.182.83.223:21005,10.182.83.224:21005,10.182.83.225:21005,10.182.83.226:21005")
+      props.put("bootstrap.servers", "xxx")
       props.put("request.required.acks", "1")
       props.put("key.serializer","org.apache.kafka.common.serialization.IntegerSerializer")
       props.put("value.serializer","org.apache.kafka.common.serialization.StringSerializer")
