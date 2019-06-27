@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/flink-learn-connectors/pom.xml" />
         <option value="$PROJECT_DIR$/flink-lrarn-watermark/pom.xml" />
         <option value="$PROJECT_DIR$/flink-learn-window/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-datastream-api/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-sideoutput/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-sql-api/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-state/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-learn-table-api/pom.xml" />
       </list>
     </option>
   </component>

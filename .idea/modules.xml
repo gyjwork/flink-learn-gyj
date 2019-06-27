@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-elasticsearch/flink-elasticsearch.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-elasticsearch/flink-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-hdfs/flink-hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-kafka/flink-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" filepath="$PROJECT_DIR$/flink-learn-connectors/flink-learn-connectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-datastream-api/flink-learn-datastream-api.iml" filepath="$PROJECT_DIR$/flink-learn-datastream-api/flink-learn-datastream-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/flink-learn-gyj.iml" filepath="$PROJECT_DIR$/.idea/flink-learn-gyj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-sideoutput/flink-learn-sideoutput.iml" filepath="$PROJECT_DIR$/flink-learn-sideoutput/flink-learn-sideoutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-sql-api/flink-learn-sql-api.iml" filepath="$PROJECT_DIR$/flink-learn-sql-api/flink-learn-sql-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-state/flink-learn-state.iml" filepath="$PROJECT_DIR$/flink-learn-state/flink-learn-state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learn-table-api/flink-learn-table-api.iml" filepath="$PROJECT_DIR$/flink-learn-table-api/flink-learn-table-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-learn-watermark/flink-learn-watermark.iml" filepath="$PROJECT_DIR$/flink-learn-watermark/flink-learn-watermark.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" filepath="$PROJECT_DIR$/flink-learn-window/flink-learn-window.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink-test-001/flink-test-001.iml" filepath="$PROJECT_DIR$/flink-test-001/flink-test-001.iml" />

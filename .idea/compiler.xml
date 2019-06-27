@@ -6,17 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flink-elasticsearch" />
+        <module name="flink-hdfs" />
+        <module name="flink-kafka" />
+        <module name="flink-learn-datastream-api" />
+        <module name="flink-learn-sideoutput" />
+        <module name="flink-learn-sql-api" />
+        <module name="flink-learn-state" />
+        <module name="flink-learn-table-api" />
         <module name="flink-learn-watermark" />
         <module name="flink-learn-window" />
-        <module name="flink-kafka" />
-        <module name="flink-hdfs" />
         <module name="flink-test-001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="flink-elasticsearch" target="1.8" />
       <module name="flink-hdfs" target="1.8" />
       <module name="flink-kafka" target="1.8" />
-      <module name="flink-learn-connectors" target="1.5" />
+      <module name="flink-learn-connectors" target="1.8" />
+      <module name="flink-learn-datastream-api" target="1.8" />
+      <module name="flink-learn-sideoutput" target="1.8" />
+      <module name="flink-learn-sql-api" target="1.8" />
+      <module name="flink-learn-state" target="1.8" />
+      <module name="flink-learn-table-api" target="1.8" />
       <module name="flink-learn-watermark" target="1.8" />
       <module name="flink-learn-window" target="1.8" />
       <module name="flink-test-001" target="1.8" />

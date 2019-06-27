@@ -11,6 +11,7 @@
     <modules>
         <module>flink-kafka</module>
         <module>flink-hdfs</module>
+        <module>flink-elasticsearch</module>
     </modules>
 
 

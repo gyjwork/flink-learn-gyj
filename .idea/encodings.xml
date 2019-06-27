@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/flink-learn-connectors/flink-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learn-connectors/flink-hdfs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learn-connectors/flink-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learn-datastream-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learn-sideoutput" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learn-sql-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learn-state" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-learn-table-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learn-watermark" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-learn-window" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-test-001" charset="UTF-8" />
